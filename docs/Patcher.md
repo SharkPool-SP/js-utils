@@ -7,9 +7,7 @@ A lightweight utility for monkeypatching functions and listening to object prope
 ### patchBefore()
 
 ```js
-
 Patcher.patchBefore(<Function>, <PatchFunction>)
-
 ```
 
 Creates a patched function that executes a callback before the original function.
